@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is Launched]]>
+    </line>
+    <line>
+      <![CDATA[UserName is Entered]]>
+    </line>
+    <line>
+      <![CDATA[Password  is Entered]]>
+    </line>
+    <line>
+      <![CDATA[Login is Successfull ]]>
+    </line>
+    <line>
+      <![CDATA[Product searched is Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Browser is Launched]]>
+    </line>
+    <line>
+      <![CDATA[UserName is Entered]]>
+    </line>
+    <line>
+      <![CDATA[Password  is Entered]]>
+    </line>
+    <line>
+      <![CDATA[Login is Successfull ]]>
+    </line>
+    <line>
+      <![CDATA[Browser is Launched]]>
+    </line>
+    <line>
+      <![CDATA[UserName is Entered]]>
+    </line>
+    <line>
+      <![CDATA[Password  is Entered]]>
+    </line>
+    <line>
+      <![CDATA[Login is Successfull ]]>
+    </line>
+    <line>
+      <![CDATA[Product searched is Successfull]]>
+    </line>
+    <line>
+      <![CDATA[LogOut is Successfull ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-01-27T18:41:28 IST" name="System" finished-at="2026-01-27T18:42:53 IST" duration-ms="84845">
+    <groups>
+    </groups>
+    <test started-at="2026-01-27T18:41:28 IST" name="Testing On Chrome" finished-at="2026-01-27T18:42:53 IST" duration-ms="84845">
+      <class name="package_01.Amazon_01.TC_02_LoginToAmazonSearching">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String)[pri:0, instance:package_01.Amazon_01.TC_02_LoginToAmazonSearching@4afcd809]" started-at="2026-01-27T18:41:28 IST" name="browserLaunch" finished-at="2026-01-27T18:41:38 IST" duration-ms="9314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="searchingProduct()[pri:0, instance:package_01.Amazon_01.TC_02_LoginToAmazonSearching@4afcd809]" started-at="2026-01-27T18:41:38 IST" name="searchingProduct" finished-at="2026-01-27T18:41:51 IST" duration-ms="13394" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is Launched]]>
+            </line>
+            <line>
+              <![CDATA[UserName is Entered]]>
+            </line>
+            <line>
+              <![CDATA[Password  is Entered]]>
+            </line>
+            <line>
+              <![CDATA[Login is Successfull ]]>
+            </line>
+            <line>
+              <![CDATA[Product searched is Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchingProduct -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:package_01.Amazon_01.TC_02_LoginToAmazonSearching@4afcd809]" started-at="2026-01-27T18:41:51 IST" name="browserQuit" finished-at="2026-01-27T18:41:55 IST" duration-ms="3786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- package_01.Amazon_01.TC_02_LoginToAmazonSearching -->
+      <class name="package_01.Amazon_01.TC_01_LoginToAmazon">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String)[pri:0, instance:package_01.Amazon_01.TC_01_LoginToAmazon@4116aac9]" started-at="2026-01-27T18:41:55 IST" name="browserLaunch" finished-at="2026-01-27T18:42:04 IST" duration-ms="8982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="withValidCredentials()[pri:0, instance:package_01.Amazon_01.TC_01_LoginToAmazon@4116aac9]" started-at="2026-01-27T18:42:04 IST" name="withValidCredentials" finished-at="2026-01-27T18:42:18 IST" duration-ms="14028" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is Launched]]>
+            </line>
+            <line>
+              <![CDATA[UserName is Entered]]>
+            </line>
+            <line>
+              <![CDATA[Password  is Entered]]>
+            </line>
+            <line>
+              <![CDATA[Login is Successfull ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- withValidCredentials -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:package_01.Amazon_01.TC_01_LoginToAmazon@4116aac9]" started-at="2026-01-27T18:42:18 IST" name="browserQuit" finished-at="2026-01-27T18:42:21 IST" duration-ms="3305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- package_01.Amazon_01.TC_01_LoginToAmazon -->
+      <class name="package_01.Amazon_01.TC_03_LoginToAmazonSearchingLogout">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String)[pri:0, instance:package_01.Amazon_01.TC_03_LoginToAmazonSearchingLogout@62ddbd7e]" started-at="2026-01-27T18:42:21 IST" name="browserLaunch" finished-at="2026-01-27T18:42:29 IST" duration-ms="7441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="searchingProductAndSignOut()[pri:0, instance:package_01.Amazon_01.TC_03_LoginToAmazonSearchingLogout@62ddbd7e]" started-at="2026-01-27T18:42:29 IST" name="searchingProductAndSignOut" finished-at="2026-01-27T18:42:50 IST" duration-ms="21330" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is Launched]]>
+            </line>
+            <line>
+              <![CDATA[UserName is Entered]]>
+            </line>
+            <line>
+              <![CDATA[Password  is Entered]]>
+            </line>
+            <line>
+              <![CDATA[Login is Successfull ]]>
+            </line>
+            <line>
+              <![CDATA[Product searched is Successfull]]>
+            </line>
+            <line>
+              <![CDATA[LogOut is Successfull ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchingProductAndSignOut -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:package_01.Amazon_01.TC_03_LoginToAmazonSearchingLogout@62ddbd7e]" started-at="2026-01-27T18:42:50 IST" name="browserQuit" finished-at="2026-01-27T18:42:53 IST" duration-ms="3225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- package_01.Amazon_01.TC_03_LoginToAmazonSearchingLogout -->
+    </test> <!-- Testing On Chrome -->
+  </suite> <!-- System -->
+</testng-results>
